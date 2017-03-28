@@ -1,0 +1,10 @@
+data HexChar =
+  HexZero
+| HexOne
+
+-- data HexLiteral =
+--   HexPrefixedLiteral HexSequence
+-- | HexBackSlashedLiteral HexSequence
+
+sig main :: HexChar -> Bool
+fun main c = True
